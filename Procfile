@@ -1,1 +1,1 @@
-web: gunicorn chat.py --log-file -
+web: gunicorn chat:application --log-file -
